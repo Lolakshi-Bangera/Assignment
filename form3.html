@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table3</title>
+</head>
+
+<body>
+    <h1>Novell Services Login</h1>
+    <form>
+        <table border style="width:32% ;">
+            <tr>
+                <td>NAME:</td>
+                <td><input type="text" placeholder=""></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password" placeholder=""></td>
+            </tr>
+            <tr>
+                <td>City of Employment:</td>
+                <td><input type="text" placeholder=""></td>
+            </tr>
+            <tr>
+                <td>Web server:</td>
+                <td>
+                    <select>
+                        <option>Please Select</option>
+                        <option>Apache</option>
+                        <option>Boa</option>
+                        <option>FoxServ</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <pre style="font-family:'Times New Roman', Times, serif">Please specify 
+your role</pre>
+                </td>
+                <td>
+                    <input type="radio" name="role" value="male" />Admin <br>
+                    <input type="radio" name="role" value="male" />Engineer<br>
+                    <input type="radio" name="role" value="male" />Manager<br>
+                    <input type="radio" name="role" value="male" />Guest<br>
+                </td>
+            </tr>
+            <tr>
+                <td><pre  style="font-family:'Times New Roman', Times, serif">Single sign-on
+to the following</pre></td>
+                <td>
+                    <input type="checkbox" />mail
+                    <input type="checkbox" />Payroll
+                    <input type="checkbox" />self service
+                </td>
+            </tr>
+        </table>
+    </form>
+    <p style="display:flex; justify-content:flex-end; width:30%; margin-top: 0%;">
+        <input type="submit" value="login">
+        <input type="reset" value="clear">
+    </p>
+</body>
+
+</html>
