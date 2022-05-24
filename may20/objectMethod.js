@@ -92,6 +92,7 @@ const app = new apple();
 
 console.log(app.name);
 console.log(app.season);
+
 //Object.assign()
 console.log("Object.assign()");
 // Applications: 
