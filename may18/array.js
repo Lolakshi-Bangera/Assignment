@@ -35,16 +35,4 @@ for (var i= 0; i< birds.length; i++) {
     console.log("bird in index",i,birds[i]);
 }
 console.log("======================================");
-//1. using new keyword
-var shoe ={
-    brand: "Mochi",
-    gender: "Female", 
-    price: 2500,
-    size: 6,
-    isAvailable: true,
-    stamp: function () {
-        return shoe.brand + "\n" + shoe.size;
-    },
-}
 
-console.log(shoe.stamp());

@@ -185,6 +185,7 @@ console.log("reverse()");
 console.log("==============Example:1=================");
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 fruits.reverse();
+
 console.log(fruits);
 console.log("==============Example:2=================");
 const items3 = [1, 2, 3];
